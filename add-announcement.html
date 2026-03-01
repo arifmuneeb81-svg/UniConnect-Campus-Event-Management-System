@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Announcement | UniConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Events</a>
+    <a href="announcements.html">Announcements</a>
+    <a href="resources.html">Resources</a>
+</nav>
+
+<!-- PAGE CONTAINER -->
+<div class="app-container">
+
+    <h1>Add Announcement</h1>
+
+    <div class="form-wrapper">
+        <form id="announcementForm" class="form-card">
+
+            <label>Title</label>
+            <input type="text" id="title" required>
+
+            <label>Message</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Add Announcement</button>
+
+            <p id="status"></p>
+
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

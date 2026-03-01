@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Event</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Events</a>
+    <a href="announcements.html">Announcements</a>
+    <a href="resources.html">Resources</a>
+</nav>
+
+<!-- MAIN CONTAINER -->
+<div class="app-container">
+
+    <h1>Add New Event</h1>
+    <p class="page-subtitle">Create and publish a new campus event</p>
+
+    <!-- CENTERED FORM -->
+    <div class="form-wrapper">
+        <form id="addEventForm" class="form-card">
+
+            <label>Event Title</label>
+            <input type="text" id="title" placeholder="e.g. Orientation Day" required>
+
+            <label>Description</label>
+            <textarea id="description" placeholder="Event details..." required></textarea>
+
+            <label>Event Date</label>
+            <input type="date" id="event_date" required>
+
+            <button type="submit">Add Event</button>
+
+            <p id="message"></p>
+
+        </form>
+    </div>
+
+    <a href="dashboard.html" class="back-link">← Back to Dashboard</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

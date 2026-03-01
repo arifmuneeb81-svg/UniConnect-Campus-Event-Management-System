@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Resource | UniConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Events</a>
+    <a href="announcements.html">Announcements</a>
+    <a href="resources.html">Resources</a>
+</nav>
+
+<!-- PAGE CONTAINER -->
+<div class="app-container">
+
+    <h1>Add Resource</h1>
+    <p class="page-subtitle">Upload or link a useful academic resource</p>
+
+    <!-- CENTERED FORM -->
+    <div class="form-wrapper">
+        <form id="resourceForm" class="form-card">
+
+            <label>Title</label>
+            <input type="text" id="title" placeholder="e.g. Data Structures Notes" required>
+
+            <label>Type</label>
+            <input type="text" id="type" placeholder="PDF / Video / Link" required>
+
+            <label>Resource Link</label>
+            <input type="url" id="link" placeholder="https://example.com" required>
+
+            <button type="submit">Add Resource</button>
+
+            <p id="status"></p>
+
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
